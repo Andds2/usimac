@@ -20,8 +20,8 @@
             <h1>USIMAC</h1>
         </div>
         <div class="content-menu" id="menu-responsive">
-            <button class="btn-menu btn-active"><span class="material-symbols-rounded">home</span>Home</button>
-            <button class="btn-menu"><span class="material-symbols-rounded">library_add</span>Pedidos</button>
+            <button class="btn-menu btn-active" id="btn-home"><span class="material-symbols-rounded">home</span>Home</button>
+            <button class="btn-menu" id="btn-pedidos"><span class="material-symbols-rounded">library_add</span>Pedidos</button>
             <button class="btn-menu"><span class="material-symbols-rounded">library_add_check</span>Encomendas</button>
         </div>
         <div class="content-footer">
@@ -34,7 +34,7 @@
         </div>
     </aside>
     <main>
-        <div class="home">
+        <div class="home" id="pg-home">
             <div class="content-estatistica-mes">
                 <div class="title-estatistica-mes"><h1>Números do mês</h1></div>
                 <div class="estatisticas">
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="content-home-pedidos">
-                <div class="home-pedidos-title"><h1>Pedidos com datas de entregas proximas</h1></div>
+                <div class="home-pedidos-title"><h1>Pedidos com datas de entregas próximas</h1></div>
                 <div class="home-pedidos">
                     <div class="card-pedidos">
                         <div class="card-pedidos-cliente"><h1>Fulano</h1></div>
@@ -109,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div class="pedidos">
+        <div class="pedidos" id="pg-pedidos">
             <div class="content-form">
                 <div class="title-form"><h1>Cadastro de pedidos</h1></div>
                 <div class="form">
@@ -141,7 +141,7 @@
                         <div class="espec-infos" id="espec-info">
                             <p>Especificação: </p>
                             <input type="text" id="espec">
-                            <button>Adicionar</button>
+                            <button class="btn-form">Adicionar</button>
                         </div>
                     </div>
                     <div class="obs">
@@ -156,7 +156,7 @@
                             <input type="date" id="data">
                         </div>
                     </div>
-                    <button>Cadastrar</button>
+                    <button class="btn-form">Cadastrar</button>
                 </div>
             </div>
         </div>
