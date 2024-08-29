@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Usimac</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <aside id="menu-aside">
+        <div class="content-logo" id="btn-menu-responsive">
+            <span class="material-symbols-rounded">settings</span>
+            <h1>USIMAC</h1>
+        </div>
+        <div class="content-menu" id="menu-responsive">
+            <button class="btn-menu btn-active"><span class="material-symbols-rounded">home</span>Home</button>
+            <button class="btn-menu"><span class="material-symbols-rounded">library_add</span>Pedidos</button>
+            <button class="btn-menu"><span class="material-symbols-rounded">library_add_check</span>Encomendas</button>
+        </div>
+        <div class="content-footer">
+            <h2>Desenvolvedores:</h2>
+            <p>ANDRE DE BARROS CARRIEL</p>
+            <p>GUILHERME MOISES DOS SANTOS</p>
+            <p>JOSE VITOR CAMPRUBI GOMES</p>
+            <p>LUIS MARCELO DE ANDRADE</p>
+            <p>YAGO BORGES DE ARAUJO</p>
+        </div>
+    </aside>
+    <main>
+        <div class="home">
+            <div class="content-estatistica-mes">
+                <div class="title-estatistica-mes"><h1>Números do mês</h1></div>
+                <div class="estatisticas">
+                    <div class="card-estatistica">
+                        <div class="card-title"><h1>Pedidos em Aberto</h1></div>
+                        <div class="card-value"><h1>10</h1></div>
+                    </div>
+                    <div class="card-estatistica">
+                        <div class="card-title"><h1>Pedidos em Processo</h1></div>
+                        <div class="card-value"><h1>10</h1></div>
+                    </div>
+                    <div class="card-estatistica">
+                        <div class="card-title"><h1>Pedidos Finalizados</h1></div>
+                        <div class="card-value"><h1>10</h1></div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-home-pedidos">
+                <div class="home-pedidos-title"><h1>Pedidos com datas de entregas proximas</h1></div>
+                <div class="home-pedidos">
+                    <div class="card-pedidos">
+                        <div class="card-pedidos-cliente"><h1>Fulano</h1></div>
+                        <div class="card-pedidos-fone"><h1>15 99999-9999</h1></div>
+                        <div class="card-pedidos-pecas"><h2>50 uni. peças de aço inoxidável</h2></div>
+                        <div class="card-pedidos-espec">
+                            <ul>
+                                <li>Diâmetro de 50mm</li>
+                                <li>Comprimento de 100mm</li>
+                                <li>Furo central de 20mm de diâmetro</li>
+                            </ul>
+                        </div>
+                        <div class="card-pedidos-obs">
+                            <h1>Observações:</h1>
+                            <p>As peças devem ser usinadas com tolerância de ±0.02mm e acabamento superficial Ra 0.8.</p>
+                        </div>
+                        <div class="card-pedidos-data"><h1>05/09/2024</h1></div>
+                    </div>
+                    <div class="card-pedidos">
+                        <div class="card-pedidos-cliente"><h1>Fulano</h1></div>
+                        <div class="card-pedidos-fone"><h1>15 99999-9999</h1></div>
+                        <div class="card-pedidos-pecas"><h2>50 uni. peças de aço inoxidável</h2></div>
+                        <div class="card-pedidos-espec">
+                            <ul>
+                                <li>Diâmetro de 50mm</li>
+                                <li>Comprimento de 100mm</li>
+                                <li>Furo central de 20mm de diâmetro</li>
+                            </ul>
+                        </div>
+                        <div class="card-pedidos-obs">
+                            <h1>Observações:</h1>
+                            <p>As peças devem ser usinadas com tolerância de ±0.02mm e acabamento superficial Ra 0.8.</p>
+                        </div>
+                        <div class="card-pedidos-data"><h1>05/09/2024</h1></div>
+                    </div>
+                    <div class="card-pedidos">
+                        <div class="card-pedidos-cliente"><h1>Fulano</h1></div>
+                        <div class="card-pedidos-fone"><h1>15 99999-9999</h1></div>
+                        <div class="card-pedidos-pecas"><h2>50 uni. peças de aço inoxidável</h2></div>
+                        <div class="card-pedidos-espec">
+                            <ul>
+                                <li>Diâmetro de 50mm</li>
+                                <li>Comprimento de 100mm</li>
+                                <li>Furo central de 20mm de diâmetro</li>
+                            </ul>
+                        </div>
+                        <div class="card-pedidos-obs">
+                            <h1>Observações:</h1>
+                            <p>As peças devem ser usinadas com tolerância de ±0.02mm e acabamento superficial Ra 0.8.</p>
+                        </div>
+                        <div class="card-pedidos-data"><h1>05/09/2024</h1></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pedidos">
+            <div class="content-form">
+                <div class="title-form"><h1>Cadastro de pedidos</h1></div>
+                <div class="form">
+                    <div class="cliente-info">
+                        <div class="form-input">
+                            <p>Nome: </p>
+                            <input type="text" id="nome_cliente">
+                        </div>
+                        <div class="form-input">
+                            <p>Fone: </p>
+                            <input type="number" id="fone_cliente">
+                        </div>
+                    </div>
+                    <div class="pecas-info">
+                        <div class="form-input">
+                            <p>Qnt.: </p>
+                            <input type="number" id="qnt_pecas">
+                        </div>
+                        <div class="form-input">
+                            <p>Peça: </p>
+                            <input type="text" id="pecas">
+                        </div>
+                    </div>
+                    <div class="pecas-espec">
+                        <div class="chx-espec">
+                            <button class="checkbox" id="chx-btn"></button>
+                            <p>Tem especificações?</p>
+                        </div>
+                        <div class="espec-infos" id="espec-info">
+                            <p>Especificação: </p>
+                            <input type="text" id="espec">
+                            <button>Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="obs">
+                        <div class="form-input">
+                            <p>Observações: </p>
+                            <textarea name="obs" id="obs"></textarea>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <div class="form-input">
+                            <p>Data: </p>
+                            <input type="date" id="data">
+                        </div>
+                    </div>
+                    <button>Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2>Desenvolvedores:</h2>
+        <p>ANDRE DE BARROS CARRIEL</p>
+        <p>GUILHERME MOISES DOS SANTOS</p>
+        <p>JOSE VITOR CAMPRUBI GOMES</p>
+        <p>LUIS MARCELO DE ANDRADE</p>
+        <p>YAGO BORGES DE ARAUJO</p>
+    </footer>
+</body>
+<script src="dist/js/script.js"></script>
+</html>

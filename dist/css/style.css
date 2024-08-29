@@ -1,0 +1,664 @@
+:root{
+    --clr1: #274c77;
+    --clr2: #e7ecef;
+    --clr3: #1E3B5C;
+    --clr4: #CED8DE;
+    --clr5: #628093;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer{
+    display: none;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr2);
+}
+
+aside{
+    width: 12vw;
+    height: 100vh;
+    background-color: var(--clr1);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 88vw;
+    height: 100vh;
+    background-color: var(--clr2);
+}
+
+.content-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr2);
+}
+
+.content-logo h1{
+    font-size: 32px;
+}
+
+.content-logo span{
+    font-size: 32px;
+}
+
+.content-menu{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-menu{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    font-size: 20px;
+    gap: 10px;
+    color: var(--clr2);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all .4s ease-in;
+}
+
+.btn-menu:hover{
+    background-color: var(--clr3);
+}
+
+.btn-active{
+    background-color: var(--clr3);
+}
+
+.content-footer p{
+    color: var(--clr2);
+    font-size: 12px;
+}
+
+.content-footer h2{
+    color: var(--clr4);
+    font-size: 16px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.content-estatistica-mes{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-estatistica-mes h1{
+    color: var(--clr3);
+    font-size: 48px;
+}
+
+.estatisticas{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-estatistica{
+    background-color: var(--clr4);
+    border-radius: 20px;
+    padding: 20px;
+    width: 280px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title{
+    border-bottom: 1px solid var(--clr5);
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.card-title h1{
+    font-size: 26px;
+    color: var(--clr1);
+}
+
+.card-value{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-value h1{
+    font-size: 40px;
+    color: var(--clr1);
+}
+
+.content-home-pedidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+}
+
+.home-pedidos-title h1{
+    color: var(--clr3);
+}
+
+.home-pedidos{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-pedidos{
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--clr1);
+}
+
+.card-pedidos-cliente{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-pedidos-cliente h1{
+    font-size: 24px;
+    color: var(--clr2);
+}
+
+.card-pedidos-fone{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-pedidos-fone h1{
+    font-size: 16px;
+    color: var(--clr4);
+}
+
+.card-pedidos-pecas{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.card-pedidos-pecas h2{
+    font-size: 16px;
+    color: var(--clr2);
+}
+
+.card-pedidos-espec{
+    width: 100%;
+    height: 40%;
+}
+
+.card-pedidos-espec ul{
+    margin-left: 20px;
+}
+
+.card-pedidos-espec ul li{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--clr4);
+}
+
+.card-pedidos-obs{
+    width: 100%;
+    height: 25%;
+}
+
+.card-pedidos-obs h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--clr2);
+}
+
+.card-pedidos-obs p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-inline: 10px;
+    text-align: justify;
+    color: var(--clr4);
+}
+
+.card-pedidos-data{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.card-pedidos-data h1{
+    font-size: 16px;
+    color: var(--clr2);
+}
+
+.pedidos{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.content-form{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-form h1{
+    font-size: 48px;
+    color: var(--clr1);
+}
+
+.form{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cliente-info, .pecas-info, .obs, .data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-input{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-input p, 
+.espec-infos p{
+    width: 15%;
+    font-size: 18px;
+    color: var(--clr3);
+    font-weight: 700;
+}
+
+.form-input input, 
+.espec-infos input, 
+.form-input textarea{
+    width: 65%;
+    padding: 10px;
+    outline: none;
+    background-color: var(--clr4);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: var(--clr1);
+    font-weight: 600;
+}
+
+.form-input textarea{
+    width: 75%;
+}
+
+.pecas-espec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chx-espec{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.espec-infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 0;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+.obs .form-input, .data .form-input{
+    width: 100%;
+}
+
+.data .form-input input[type=date]{
+    width: 30%;
+}
+
+@media screen and (max-width: 1366px) {
+    aside{
+        width: 20vw;
+    }
+
+    main{
+        width: 80vw;
+    }
+
+    .title-estatistica-mes h1{
+        font-size: 32px;
+    }
+
+    .card-estatistica{
+        width: 200px;
+        height: 100px;
+    }
+
+    .card-title h1{
+        font-size: 18px;
+    }
+
+    .card-value h1{
+        font-size: 30px;
+    }
+
+    .home-pedidos-title h1{
+        font-size: 24px;
+    }
+
+    .card-pedidos{
+        width: 250px;
+        height: 350px;
+    }
+
+    .card-pedidos-cliente h1{
+        font-size: 20px;
+    }
+
+    .card-pedidos-fone h1,
+    .card-pedidos-pecas h2,
+    .card-pedidos-data h1{
+        font-size: 12px;
+    }
+
+    .card-pedidos-espec ul{
+        margin-left: 10px;
+    }
+    
+    .card-pedidos-espec ul li,
+    .card-pedidos-obs p{
+        font-size: 11px;
+    }
+
+    .card-pedidos-obs h1{
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    aside{
+        width: 20vw;
+    }
+
+    .content-footer p{
+        font-size: 10px;
+    }
+    
+    .content-footer h2{
+        font-size: 12px;
+    }
+
+    main{
+        width: 80vw;
+    }
+
+    .title-estatistica-mes h1{
+        font-size: 32px;
+    }
+
+    .card-estatistica{
+        width: 150px;
+        height: 100px;
+    }
+
+    .card-title h1{
+        font-size: 14px;
+    }
+
+    .card-value h1{
+        font-size: 24px;
+    }
+
+    .card-pedidos{
+        width: 200px;
+        height: 280px;
+    }
+
+    .card-pedidos-cliente h1{
+        font-size: 20px;
+    }
+
+    .card-pedidos-fone h1,
+    .card-pedidos-pecas h2,
+    .card-pedidos-data h1{
+        font-size: 12px;
+    }
+
+    .card-pedidos-espec ul{
+        margin-left: 10px;
+    }
+    
+    .card-pedidos-espec ul li,
+    .card-pedidos-obs p{
+        font-size: 11px;
+    }
+
+    .card-pedidos-obs h1{
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        width: 100vw;
+        height: 350vh;
+    }
+
+    aside{
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+    }
+
+    .content-logo{
+        position: fixed;
+        top: 10px;
+    }
+
+    .content-menu{
+        display: none;
+        margin-top: 30px;
+    }
+
+    .btn-menu{
+        width: 180px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        font-size: 16px;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .btn-menu:hover{
+        color: var(--clr3);
+        background-color: transparent;
+    }
+    
+    .btn-active{
+        color: var(--clr3);
+        background-color: transparent;
+    }
+
+    .content-footer{
+        display: none;
+    }
+
+    main{
+        margin-top: 15vh;
+        height: 300vh;
+
+    }
+
+    .home{
+        height: 100%;
+    }
+
+    .content-estatistica-mes{
+        height: 30%;
+    }
+
+    .title-estatistica-mes{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .estatisticas{
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 90%;
+    }
+
+    .title-estatistica-mes h1{
+        font-size: 26px;
+    }
+
+    .card-estatistica{
+        width: 150px;
+        height: 100px;
+    }
+
+    .content-home-pedidos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 70%;
+    }
+    
+    .home-pedidos-title{
+        height: 5%;
+        display: flex;
+        align-items: end;
+    }
+
+    .home-pedidos-title h1{
+        font-size: 25px;
+        text-wrap: wrap;
+        color: var(--clr3);
+        text-align: center;
+    }
+
+    .home-pedidos{
+        width: 100%;
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .card-pedidos{
+        width: 300px;
+        height: 400px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: var(--clr1);
+    }
+
+    footer{
+        background-color: var(--clr1);
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--clr2);
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+
+    footer h2{
+        font-size: 16px;
+    }
+}
