@@ -1,0 +1,183 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.content-estatistica-mes{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-estatistica-mes h1{
+    color: var(--clr3);
+    font-size: 48px;
+}
+
+.estatisticas{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-estatistica{
+    background-color: var(--clr4);
+    border-radius: 20px;
+    padding: 20px;
+    width: 280px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title{
+    border-bottom: 1px solid var(--clr2);
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.card-title h1{
+    font-size: 26px;
+    color: var(--clr5);
+}
+
+.card-value{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-value h1{
+    font-size: 40px;
+    color: var(--clr1);
+}
+
+.content-home-pedidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+}
+
+.home-pedidos-title h1{
+    color: var(--clr3);
+}
+
+.home-pedidos{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-pedidos{
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--clr1);
+}
+
+.card-pedidos-cliente{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-pedidos-cliente h1{
+    font-size: 24px;
+    color: var(--clr2);
+}
+
+.card-pedidos-fone{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-pedidos-fone h1{
+    font-size: 16px;
+    color: var(--clr4);
+}
+
+.card-pedidos-pecas{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.card-pedidos-pecas h2{
+    font-size: 16px;
+    color: var(--clr2);
+}
+
+.card-pedidos-espec{
+    width: 100%;
+    height: 40%;
+}
+
+.card-pedidos-espec ul{
+    margin-left: 20px;
+}
+
+.card-pedidos-espec ul li{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--clr4);
+}
+
+.card-pedidos-obs{
+    width: 100%;
+    height: 25%;
+}
+
+.card-pedidos-obs h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--clr2);
+}
+
+.card-pedidos-obs p{
+    font-size: 15px;
+    font-weight: 700;
+    margin-inline: 10px;
+    text-align: justify;
+    color: var(--clr4);
+}
+
+.card-pedidos-data{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.card-pedidos-data h1{
+    font-size: 16px;
+    color: var(--clr2);
+}

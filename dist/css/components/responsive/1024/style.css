@@ -1,0 +1,72 @@
+@media screen and (max-width: 1024px) {
+    aside{
+        width: 20vw;
+    }
+
+    .content-footer p{
+        font-size: 10px;
+    }
+    
+    .content-footer h2{
+        font-size: 12px;
+    }
+
+    main{
+        width: 80vw;
+    }
+
+    .title-estatistica-mes h1{
+        font-size: 32px;
+    }
+
+    .card-estatistica{
+        width: 150px;
+        height: 100px;
+    }
+
+    .card-title h1{
+        font-size: 14px;
+    }
+
+    .card-value h1{
+        font-size: 24px;
+    }
+
+    .card-pedidos{
+        width: 200px;
+        height: 280px;
+    }
+
+    .card-pedidos-cliente h1{
+        font-size: 20px;
+    }
+
+    .card-pedidos-fone h1,
+    .card-pedidos-pecas h2,
+    .card-pedidos-data h1{
+        font-size: 12px;
+    }
+
+    .card-pedidos-espec ul{
+        margin-left: 10px;
+    }
+    
+    .card-pedidos-espec ul li,
+    .card-pedidos-obs p{
+        font-size: 11px;
+    }
+
+    .card-pedidos-obs h1{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .form-input p, 
+    .espec-infos p{
+        width: 15%;
+        font-size: 14px;
+        color: var(--clr3);
+        font-weight: 700;
+    }
+
+}

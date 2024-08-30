@@ -1,4 +1,11 @@
-:root{
+@import url(components/layout.css);
+@import url(components/menu.css);
+@import url(components/home.css);
+@import url(components/pedidos.css);
+@import url(components/responsive.css);
+
+
+/* :root{
     --clr1: #36509d;
     --clr2: #e7ecef;
     --clr3: #2A3F7A;
@@ -38,9 +45,9 @@ main{
     width: 88vw;
     height: 100vh;
     background-color: var(--clr2);
-}
+} */
 
-.content-logo{
+/* .content-logo{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,9 +107,9 @@ main{
 .content-footer h2{
     color: var(--clr4);
     font-size: 16px;
-}
+} */
 
-.home{
+/* .home{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -284,9 +291,9 @@ main{
 .card-pedidos-data h1{
     font-size: 16px;
     color: var(--clr2);
-}
+} */
 
-.pedidos{
+/* .pedidos{
     display: none;
     flex-direction: column;
     align-items: center;
@@ -419,9 +426,9 @@ main{
 
 .data .form-input input[type=date]{
     width: 30%;
-}
+} */
 
-@media screen and (max-width: 1366px) {
+/* @media screen and (max-width: 1366px) {
     aside{
         width: 20vw;
     }
@@ -776,4 +783,4 @@ main{
     .data .form-input input[type=date]{
         width: 50%;
     }
-}
+} */

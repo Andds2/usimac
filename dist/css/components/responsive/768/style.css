@@ -1,0 +1,210 @@
+@media screen and (max-width: 780px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        width: 100vw;
+        height: 350vh;
+    }
+
+    aside{
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+    }
+
+    .content-logo{
+        position: fixed;
+        top: 10px;
+    }
+
+    .content-menu{
+        display: none;
+        margin-top: 30px;
+    }
+
+    .btn-menu{
+        width: 180px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        font-size: 16px;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .btn-menu:hover{
+        color: var(--clr3);
+        background-color: transparent;
+    }
+    
+    .btn-active{
+        color: var(--clr3);
+        background-color: transparent;
+    }
+
+    .content-footer{
+        display: none;
+    }
+
+    main{
+        margin-top: 15vh;
+        height: 88.7%;
+    }
+
+    .home{
+        height: 100%;
+    }
+
+    .content-estatistica-mes{
+        height: 30%;
+    }
+
+    .title-estatistica-mes{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .estatisticas{
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 90%;
+    }
+
+    .title-estatistica-mes h1{
+        font-size: 26px;
+    }
+
+    .card-estatistica{
+        width: 150px;
+        height: 100px;
+    }
+
+    .content-home-pedidos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 70%;
+    }
+    
+    .home-pedidos-title{
+        height: 5%;
+        display: flex;
+        align-items: end;
+    }
+
+    .home-pedidos-title h1{
+        font-size: 25px;
+        text-wrap: wrap;
+        color: var(--clr3);
+        text-align: center;
+    }
+
+    .home-pedidos{
+        width: 100%;
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .card-pedidos{
+        width: 300px;
+        height: 400px;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: var(--clr1);
+    }
+
+    footer{
+        background-color: var(--clr1);
+        height: 11.4%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--clr2);
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+
+    footer h2{
+        font-size: 16px;
+    }
+
+    .pedidos{
+        width: 100%;
+        height: 100%;
+        justify-content: start;
+    }
+    
+    .content-form{
+        width: 100%;
+        height: 95%;
+    }
+    
+    .title-form h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .form{
+        width: 95%;
+        height: 90%;
+    }
+    
+    .cliente-info, .pecas-info, .obs, .data{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-input{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form-input p, 
+    .espec-infos p{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .form-input input, 
+    .espec-infos input, 
+    .form-input textarea{
+        width: 80%;
+    }
+    
+    .espec-infos{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .obs .form-input, .data .form-input{
+        width: 100%;
+    }
+    
+    .data .form-input input[type=date]{
+        width: 50%;
+    }
+}
